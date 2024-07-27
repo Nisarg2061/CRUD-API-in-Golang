@@ -1,0 +1,8 @@
+version: '3'
+services:
+  api:
+    container_name: api
+    build: .
+    image: api:latest
+    ports:
+      - "8075:8075"
